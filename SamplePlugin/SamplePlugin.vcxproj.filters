@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{e6aa93c7-c73a-43fa-b620-9b1a70dd9fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Geometry">
+      <UniqueIdentifier>{c02f85fc-723a-499b-941d-724c2d858da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\clipper2">
+      <UniqueIdentifier>{1820ee4b-a90e-4caf-aa04-7d6261d95491}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper2\clipper.core.h">
+      <Filter>SDK\clipper2</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper2\clipper.engine.h">
+      <Filter>SDK\clipper2</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper2\clipper.export.h">
+      <Filter>SDK\clipper2</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper2\clipper.h">
+      <Filter>SDK\clipper2</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper2\clipper.minkowski.h">
+      <Filter>SDK\clipper2</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper2\clipper.offset.h">
+      <Filter>SDK\clipper2</Filter>
+    </ClInclude>
+    <ClInclude Include="clipper2\clipper.rectclip.h">
+      <Filter>SDK\clipper2</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>SDK\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="FAIcons.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="clipper2\clipper.engine.cpp">
+      <Filter>SDK\clipper2</Filter>
+    </ClCompile>
+    <ClCompile Include="clipper2\clipper.offset.cpp">
+      <Filter>SDK\clipper2</Filter>
+    </ClCompile>
+    <ClCompile Include="clipper2\clipper.rectclip.cpp">
+      <Filter>SDK\clipper2</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>SDK\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
